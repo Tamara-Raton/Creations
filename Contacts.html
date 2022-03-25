@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Contacts</title>
+    <link rel="stylesheet" href="contact.css" />
+</head>
+
+<body>
+    <header class="en-tete">
+
+        <nav class="navigation">
+            <ul>
+                <li><a target="_blank" href=Menu.html>Menu</a></li>
+                <li><a href=Notre_equipe.html>Notre équipe</a></li>
+                <li><a href=Contacts.html>Nous contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <p><img id="image-test" src="./Images/cremonia_accueil.png" alt="Bannière Cat Coffee rose " /></p>
+    <div id="contact">
+        <p>Nous contacter <a href="mailto:tamara.raton@gmail.com"> par mail.</a></p>
+        <p>Appelez nous au <a href="tel:+33621616091">0621616091</a></p>
+    </div>
+    <div id="titre">
+        <H2>Formulaire de contact</H2>
+    </div>
+    <div id="formulaire">
+        <form method="post" action="Page_d_accueil.html">
+            <label for="nom">Votre nom</label>
+            <input type="text" id="nom" name="nom" size="30" maxlength="20" placeholder="Ex : Dupont" />
+
+            <label for="nom">Votre prénom</label>
+            <input type="text" id="prenom" name="prenom" size="30" maxlength="20" placeholder="Ex : Arnaud" />
+
+            <label for="mail">Votre adresse mail</label>
+            <input type="email" id="mail" name="mail" size="30" maxlength="50"
+                placeholder="Ex : dupont.arnaud@email.fr" />
+
+            <label for="demande">Exprimez-vous !</label>
+            <textarea id="demande" name="demande" placeholder="Ex : donnez-nous votre avis !"></textarea>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+
+    <footer>
+        <ul>
+            <li>Mentions légales</li>
+            <li>Nous contacter</li>
+            <li> Partenaires</li>
+            <li> Réseaux sociaux</li>
+        </ul>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.en-tete {
+    background-color: #d6877d;
+    height: 50px;
+
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+.navigation {
+    height: 100%;
+}
+header nav ul li{
+    list-style-type: none;
+}
+a{
+    color :aliceblue ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: black;
+}
+#image-test{
+    width: 100vw;
+}
+body{
+    background-color: #3D6281 ; 
+    overflow-x: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+#notre_carte{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 450px);
+    grid-row-start: initial;
+    margin-top: 50px;
+    width: 80vw;
+    position :relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+#boissons_chaudes, #boissons_froides, #pâtisseries, #salés{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 450px 50px;
+    color: white;
+    background-color: black;
+    border: double white 8px;
+    margin-top: 50px;
+    margin-right: 50px;
+    font-size: large;
+}   
+#boissons_froides div ul, #boissons_chaudes div ul, #pâtisseries div ul, #salés div ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+#formules div ul, #forfait div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#boissons_froides div:first-child ul,#formules div:first-child ul, #forfait ul, #boissons_chaudes div:first-child  ul, #pâtisseries div:first-child ul, #salés div:first-child ul{
+    margin-left: 10px;
+}
+#formules {
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    position: relative;
+    left: 50%;
+    transform:translate(-50%);
+    color: white;
+    background-color: black;
+    border: double white 8px;
+    margin-top: 50px;
+    width: 50vw;
+    font-size: large;
+}
+li {
+    list-style-type: none;
+}
+.prix {
+    text-align: end;
+}
+#forfait {
+    position: relative;
+    left: 50%;
+    transform:translate(-50%);
+    color: white;
+    background-color: black;
+    border: double white 8px;
+    margin-top: 50px;
+    width: 50vw;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 50px;
+}
+h3, h1{
+    text-align: center;
+}
+h1{
+    margin-top: 50px;
+    font-size: 75px;
+}
+footer {
+    background-color: #d6877d ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 60px;
+   
+}
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+
+}
+footer ul li {
+    list-style-type: none;
+}

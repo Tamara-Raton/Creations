@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3D6281 ;
+    overflow-x: hidden;
+}
+
+#image-test{
+    width: 100vw;
+}
+.en-tete {
+    background-color: #d6877d;
+    height: 50px;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+header nav ul li{
+    list-style-type: none;
+}
+.titre {
+    color : #d6877d ;
+    text-align: center ;
+    font-style: italic ;
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 60px;
+    font-size:xx-large;
+    
+
+}
+
+
+.horaires {
+    color : #d6877d ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 30px;
+    font-size: larger;
+
+}
+.présentation {
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.navigation {
+    height: 100%;
+}
+
+a{
+    color :aliceblue ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: black;
+}
+
+footer {
+    background-color: #d6877d ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 60px;
+   
+}
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+
+}
+footer ul li {
+    list-style-type: none;
+}
+
+.présentation p {
+    margin: 40px 30px 40px 30px; 
+    line-height: 30px;
+    
+}
+
+#container-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 600px 600px;
+    margin: 20px;
+    justify-items: center;
+    align-items: center;
+   
+}
+
+.imagechat{
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 0 0 10px;
+    height:500px ;
+    display: grid;
+}
+.imagechat p img {
+    height: 450px;
+    width: 300px;
+    border-bottom: 2px solid black;
+
+}
